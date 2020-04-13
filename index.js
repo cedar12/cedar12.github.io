@@ -1,5 +1,7 @@
 window.onload=function(){
 	setTimeout(()=>{
-		document.getElementById("cedar-data").classList.remove("down-anim");
+		let classList=document.getElementById("cedar-data").classList;
+		classList.add("hover-anim");
+		classList.remove("down-anim");
 	},2000)
 }
