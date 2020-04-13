@@ -24,6 +24,7 @@ body{
 	transition: color 0.2s, background-color 0.2s, border-color 0.2s;
 	padding: 10px;
 	position: absolute;
+	
 }
 
 @keyframes down{
@@ -63,4 +64,5 @@ a.hover-anim:hover{
 	left: calc(100vw / 2 - 50px);
 	top: calc(100vh / 2 - 15px);
 	transform: rotate(0deg);
+	text-decoration:none;
 }
